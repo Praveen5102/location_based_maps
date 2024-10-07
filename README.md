@@ -98,6 +98,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Contact
 For any questions or feedback, feel free to reach out to [Praveen Kumar Gone] at [praveenkumargone229@gmail.com].
 
+##
 By following this README, you should be able to successfully set up and run the Location Map App on your local machine. Enjoy exploring map functionalities with the convenience of OpenStreetMap!
 
 
