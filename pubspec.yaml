@@ -43,6 +43,7 @@ dev_dependencies:
   latlong2: ^0.9.1
   geocoding: ^3.0.0  # For address to lat/lng conversion
   http: ^1.2.2
+  geolocator: ^13.0.1
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
