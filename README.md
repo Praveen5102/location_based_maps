@@ -72,15 +72,17 @@ flutter run
 6. **Optional - Set Up Android Emulator**
 If you don’t have an Android emulator set up, you can create one by following these steps:
 
-- Open Android Studio.
-- Go to AVD Manager
-- Create a new virtual device and choose a system image
-- Launch the emulator
+  - Open Android Studio.
+  - Go to AVD Manager
+  - Create a new virtual device and choose a system image
+  - Launch the emulator
 
 ## How to Use the App
 
 1. **Enter Location:** When the app starts, it will display the user-provided location on the map with a red marker.
-2.**Detect Current Location:** The app will automatically detect the user's current location and display it with a blue marker on the map.
+
+2. **Detect Current Location:** The app will automatically detect the user's current location and display it with a blue marker on the map.
+  
 3. **Toggle Map Type:** You can switch between street and satellite map views by tapping the Map button on the top right corner of the app.
 
 ## Package Used
