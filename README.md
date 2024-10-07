@@ -39,23 +39,28 @@ You can switch between Street and Satellite views using the map toggle button in
 Follow these steps to get the project running locally on your system:
 
 1. **Install Flutter**
+
 Ensure that Flutter is installed on your machine. You can download it from the official Flutter site: Flutter Installation Guide.
 
 2. **Clone the Repository**
+   
 Open your terminal or command prompt, and run the following command to clone the project:
 ```bash
 git clone https://github.com/yourusername/location_map_app.git
 ```
 Navigate to the project directory:
+
 ```bash
 cd location_map_app
 ```
 3.**Install Dependencies**
+
 Run the following command to install the required packages and dependencies:
 ```bash
 flutter pub get
 ```
 4. **Set Up Permissions**
+
 To access the user's location, you must add location permissions for Android.
 
 Open android/app/src/main/AndroidManifest.xml and add the following permissions:
@@ -65,11 +70,13 @@ Open android/app/src/main/AndroidManifest.xml and add the following permissions:
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 5. **Run the App**
+   
 Once you've set up permissions and installed dependencies, you can run the app on your emulator or physical device:
 ```bash
 flutter run
 ```
 6. **Optional - Set Up Android Emulator**
+   
 If you don’t have an Android emulator set up, you can create one by following these steps:
 
   - Open Android Studio.
