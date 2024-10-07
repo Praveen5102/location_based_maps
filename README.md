@@ -56,6 +56,7 @@ Follow these steps to get the project running locally on your system:
 3.**Install Dependencies**
 
    Run the following command to install the required packages and dependencies:
+   
    ```bash
      flutter pub get
    ```
