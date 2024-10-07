@@ -20,20 +20,29 @@ This is a simple Flutter application that uses OpenStreetMap to display a locati
 - geolocator(v13.0.1)
 - OpenStreetMap
 
-
 ## Screenshots
 
-1.**Initial Location Display**
+### 1. Initial Location Display
 This screen shows the user-entered location with a red marker.
-![Sample Output](https://github.com/Praveen5102/location_based_maps/blob/main/lib/input_location.jpeg)
 
-2.**Search Location Detection**
-The user's current location is shown with a blue marker.
-![Sample Output](https://github.com/Praveen5102/location_based_maps/blob/main/lib/search_location.jpeg)
-
-3.**User's Current location**
-On clicking on the floating button to find the User's current location.
-![Sample Output](https://github.com/Praveen5102/location_based_maps/blob/main/lib/current.jpeg)
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/Praveen5102/location_based_maps/blob/main/lib/input_location.jpeg" alt="Initial Location Display" width="400"/>
+    </td>
+    <td>
+      <img src="https://github.com/Praveen5102/location_based_maps/blob/main/lib/search_location.jpeg" alt="Search Location Detection" width="400"/>
+    </td>
+    <td>
+      <img src="https://github.com/Praveen5102/location_based_maps/blob/main/lib/current.jpeg" alt="User's Current Location" width="400"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Initial Location Display</td>
+    <td align="center">Search Location Detection</td>
+    <td align="center">User's Current Location</td>
+  </tr>
+</table>
 
 
 ##  Setup Instructions
