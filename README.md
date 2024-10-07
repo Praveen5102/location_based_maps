@@ -38,10 +38,10 @@ You can switch between Street and Satellite views using the map toggle button in
 
 Follow these steps to get the project running locally on your system:
 
-1.**Install Flutter**
+1. **Install Flutter**
 Ensure that Flutter is installed on your machine. You can download it from the official Flutter site: Flutter Installation Guide.
 
-2.**Clone the Repository**
+2. **Clone the Repository**
 Open your terminal or command prompt, and run the following command to clone the project:
 ```bash
 git clone https://github.com/yourusername/location_map_app.git
@@ -55,7 +55,7 @@ Run the following command to install the required packages and dependencies:
 ```bash
 flutter pub get
 ```
-4.**Set Up Permissions**
+4. **Set Up Permissions**
 To access the user's location, you must add location permissions for Android.
 
 Open android/app/src/main/AndroidManifest.xml and add the following permissions:
@@ -64,12 +64,12 @@ Open android/app/src/main/AndroidManifest.xml and add the following permissions:
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.INTERNET" />
 ```
-5.**Run the App**
+5. **Run the App**
 Once you've set up permissions and installed dependencies, you can run the app on your emulator or physical device:
 ```bash
 flutter run
 ```
-6.**Optional - Set Up Android Emulator**
+6. **Optional - Set Up Android Emulator**
 If you don’t have an Android emulator set up, you can create one by following these steps:
 
 - Open Android Studio.
@@ -79,9 +79,9 @@ If you don’t have an Android emulator set up, you can create one by following 
 
 ## How to Use the App
 
-1.**Enter Location:** When the app starts, it will display the user-provided location on the map with a red marker.
+1. **Enter Location:** When the app starts, it will display the user-provided location on the map with a red marker.
 2.**Detect Current Location:** The app will automatically detect the user's current location and display it with a blue marker on the map.
-3.**Toggle Map Type:** You can switch between street and satellite map views by tapping the Map button on the top right corner of the app.
+3. **Toggle Map Type:** You can switch between street and satellite map views by tapping the Map button on the top right corner of the app.
 
 ## Package Used
 
