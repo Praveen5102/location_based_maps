@@ -109,7 +109,7 @@ class _MapScreenState extends State<MapScreen> {
                 height: 80.0,
                 child: const Icon(
                   Icons.location_pin,
-                  color: Colors.red,
+                  color: Colors.blue,
                   size: 40,
                 ),
               ),
