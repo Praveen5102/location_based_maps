@@ -53,13 +53,13 @@ Follow these steps to get the project running locally on your system:
    ```bash
    cd location_map_app
    ```
-3.**Install Dependencies**
+3. **Install Dependencies**
 
    Run the following command to install the required packages and dependencies:
    
-   ```bash
+    ```bash
      flutter pub get
-   ```
+    ```
 4. **Set Up Permissions**
 
    To access the user's location, you must add location permissions for Android.
