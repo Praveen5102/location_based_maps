@@ -25,13 +25,15 @@ This is a simple Flutter application that uses OpenStreetMap to display a locati
 
 1.**Initial Location Display**
 This screen shows the user-entered location with a red marker.
+![Sample Output](https://github.com/Praveen5102/location_based_maps/blob/main/lib/input_location.jpeg)
 
-2.**Current Location Detection**
+2.**Search Location Detection**
 The user's current location is shown with a blue marker.
+![Sample Output](https://github.com/Praveen5102/location_based_maps/blob/main/lib/search_location.jpeg)
 
-3.**Map Type Toggle**
-You can switch between Street and Satellite views using the map toggle button in the AppBar.
-
+3.**User's Current location**
+On clicking on the floating button to find the User's current location.
+![Sample Output](https://github.com/Praveen5102/location_based_maps/blob/main/lib/current.jpeg)
 
 
 ##  Setup Instructions
