@@ -22,7 +22,8 @@ class MapScreen extends StatefulWidget {
 class _MapScreenState extends State<MapScreen> {
   late MapController _mapController;
   LatLng? _currentPosition;
-  String _mapType = 'street'; // To track map type
+  LatLng? _userLocation;
+  String _mapType = 'street';
 
   @override
   void initState() {
@@ -64,8 +65,8 @@ class _MapScreenState extends State<MapScreen> {
     Position position = await Geolocator.getCurrentPosition(
         desiredAccuracy: LocationAccuracy.high);
     setState(() {
-      _currentPosition = LatLng(position.latitude, position.longitude);
-      _mapController.move(_currentPosition!, 15.0);
+      _userLocation = LatLng(position.latitude, position.longitude);
+      _mapController.move(_userLocation!, 15.0);
     });
   }
 
@@ -76,7 +77,6 @@ class _MapScreenState extends State<MapScreen> {
         title: Text(widget.locationName),
         backgroundColor: Colors.blue,
         actions: [
-          // Button to toggle between map types
           IconButton(
             icon: Icon(_mapType == 'street' ? Icons.satellite : Icons.map),
             onPressed: () {
@@ -103,16 +103,29 @@ class _MapScreenState extends State<MapScreen> {
           ),
           MarkerLayer(
             markers: [
+              // Red marker for the initial position
               Marker(
                 point: _currentPosition!,
                 width: 80.0,
                 height: 80.0,
                 child: const Icon(
                   Icons.location_pin,
-                  color: Colors.blue,
+                  color: Colors.red,
                   size: 40,
                 ),
               ),
+              // Blue marker for the user's current location (if available)
+              if (_userLocation != null)
+                Marker(
+                  point: _userLocation!,
+                  width: 80.0,
+                  height: 80.0,
+                  child: const Icon(
+                    Icons.location_pin,
+                    color: Colors.blue,
+                    size: 40,
+                  ),
+                ),
             ],
           ),
         ],
